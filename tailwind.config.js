@@ -1,15 +1,11 @@
 module.exports = {
-  // mode: 'jit',
-  // purge: [
-  //   "./src/**/*.html"
-  // ],
   content: ["./src/**/*.html"],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "checkbox-default": "url('../images/checkbox-default.png')",
-        "checkbox-checked": "url('../images/checkbox-checked.png')",
+        "checkbox-default": "url('./src/checkbox-default.svg')",
+        "checkbox-checked": "url('./src/checkbox-checked.svg')",
       }),
       colors: {
         white: "#ffffff",
