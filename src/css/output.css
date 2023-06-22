@@ -684,10 +684,6 @@ video {
   background-color: rgb(55 62 106 / var(--tw-bg-opacity));
 }
 
-/* .bg-checkbox-checked {
-  background-image: url('./src/checkbox-checked.svg');
-} */
-
 .bg-checkbox-default {
   background-image: url('../images/checkbox-default.svg');
 }
@@ -792,9 +788,6 @@ body {
 
 .auto-login:checked + label {
   background-image: url('../images/checkbox-checked.svg');
-  background-position: left;
-  background-repeat: no-repeat;
-  padding-left: 1.5rem;
 }
 
 /* .html클래스{
